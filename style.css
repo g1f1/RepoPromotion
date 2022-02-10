@@ -1,5 +1,12 @@
+@import url("./fonts/Lato-Black.ttf");
+/* Light Palette 
+    -#232323 Black
+    -#fff White
+*/
 body {
-    background: #232323;
+  --ColorA: #232323;
+  --ColorB: #fff;
+    background: var(--ColorA);
   }
   
   .hidden {
@@ -11,16 +18,16 @@ body {
     right: 10px;
     position: fixed;
     border-radius: 10px;
-    background: #fff;
-    padding: 0 12px 6px 12px;
-    border: 1px solid #232323;
+    background: var(--ColorB);
+    padding: 6px 12px 6px 12px;
+    border: 1px solid var(--ColorA);
   }
   
   .github a:hover,
   .github a:link,
   .github a:visited,
   .github a:active {
-    color: #232323;
+    color: var(--ColorA);
     text-decoration: none;
   }
   
@@ -33,5 +40,6 @@ body {
     padding-left: 5px;
     font-weight: bold;
     vertical-align: bottom;
+    font-family: 'Lato', sans-serif;
   }
   
