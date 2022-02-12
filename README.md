@@ -1,4 +1,8 @@
 # RepoPromotion
+<a href="https://www.githack.org">
+		<img align="right" src="https://komarev.com/ghpvc/?username=g1f1yourrepo&color=brightgreen&style=plastic" alt="MacrowebCloud github repo views"/>
+	</a>
+  
 A frontend page that displays the star and fork options by the repository.
 
 </br>
